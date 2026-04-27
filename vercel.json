@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "vercel-proxy",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/index" }
+  ],
+  "trailingSlash": false
+}
